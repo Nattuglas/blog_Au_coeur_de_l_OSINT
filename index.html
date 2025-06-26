@@ -1,87 +1,94 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Au cœur de l’OSINT</title>
-  <link rel="stylesheet" href="./style/index.css" />
-</head>
-<body>
-  <header class="site-header">
-    <div class="logo-titre">
-      <img src="./images/logo.png" alt="Logo OSINT" class="logo" />
-      <h1 class="site-title">AU CŒUR DE L’OSINT</h1>
-    </div>
-  </header>
-
-  <nav class="menu sticky-nav">
-    <a href="#">🏠 Accueil</a>
-    <a href="#">📚 Articles</a>
-    <a href="#">🛠️ Outils OSINT</a>
-    <a href="#">🎓 Formations / Ebooks</a>
-    <a href="#">🎯 Services OSINT</a>
-    <a href="#">💬 Contact</a>
-    <a href="#">🔒 Accès privé</a>
-  </nav>
-
-  <section class="hero">
-    <div class="texte">
-      <h2 class="hero-title"><span>Ensemble, explorons l’OSINT</span></h2>
-      <p>
-        Pas besoin d’être un pro pour commencer : ici, on apprend à notre rythme, en partageant astuces, outils et enquêtes.<br />
-        C’est un voyage collaboratif, une mission collective à travers les recoins visibles (et invisibles) du Web.<br />
-        <strong>Prêt à entrer dans la boucle ?</strong>
-      </p>
-      <a href="#articles" class="btn-cta">🚀 Commencer l’aventure</a>
-    </div>
-    <div class="illustration">
-      <img src="./images/illustration.png" alt="Illustration OSINT" />
-    </div>
-  </section>
-
-  <section class="articles" id="articles">
-  <h3>📝 Derniers articles</h3>
-  <div class="articles-container">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Au cœur de l’OSINT</title>
+    <link rel="stylesheet" href="./style/index.css" />
     
-    <article class="card">
-      <div class="card-icon">🔍</div>
-      <span class="tag">🧠 Débutant</span>
-      <h4>Comment débuter en OSINT ?</h4>
-      <p>Un guide complet pour faire vos premières recherches efficacement.</p>
-      <a href="#">Lire l’article →</a>
-    </article>
+  </head>
 
-    <article class="card">
-      <div class="card-icon">🕵️‍♂️</div>
-      <span class="tag">🔎 Enquête</span>
-      <h4>Retrouver des infos à partir d'une image</h4>
-      <p>Analyse d’image et recherche inversée pour pister sur le Web.</p>
-      <a href="#">Lire l’article →</a>
-    </article>
+  <body>
+    <header class="site-header">
+      <button id="menu-btn" aria-label="Ouvrir le menu">☰</button>
+      <div class="logo-titre">
+        <img src="./images/logo.png" alt="Logo OSINT" class="logo" />
+        <h1 class="site-title">AU CŒUR DE L’OSINT</h1>
+      </div>
 
-    <article class="card">
-      <div class="card-icon">🌐</div>
-      <span class="tag">💻 Outils</span>
-      <h4>Top 5 des outils OSINT gratuits</h4>
-      <p>Découvre les meilleurs outils pour enquêter comme un pro sans payer.</p>
-      <a href="#">Lire l’article →</a>
-    </article>
+      <nav class="menu sticky-nav">
+        <a href="#">🏠 Accueil</a>
+        <a href="#">📚 Articles</a>
+        <a href="#">🛠️ Outils OSINT</a>
+        <a href="#">🎓 Formations / Ebooks</a>
+        <a href="#">🎯 Services OSINT</a>
+        <a href="#">💬 Contact</a>
+        <a href="#">🔒 Accès privé</a>
+      </nav>
+    </header>
+    <section class="hero">
+      <div class="texte">
+        <h2 class="hero-title"><span>Ensemble, explorons l’OSINT</span></h2>
+        <p>
+          Pas besoin d’être un pro pour commencer : ici, on apprend à notre
+          rythme, en partageant astuces, outils et enquêtes.<br />
+          C’est un voyage collaboratif, une mission collective à travers les
+          recoins visibles (et invisibles) du Web.<br />
+          <strong>Prêt à entrer dans la boucle ?</strong>
+        </p>
+        <a href="#articles" class="btn-cta">🚀 Commencer l’aventure</a>
+      </div>
+      <div class="illustration">
+        <img src="./images/illustration.png" alt="Illustration OSINT" />
+      </div>
+    </section>
 
-  </div>
-</section>
+    <section class="articles" id="articles">
+      <h3>📝 Derniers articles</h3>
+      <div class="articles-container">
+        <article class="card">
+          <div class="card-icon">🔍</div>
+          <span class="tag">🧠 Débutant</span>
+          <h4>Comment débuter en OSINT ?</h4>
+          <p>
+            Un guide complet pour faire vos premières recherches efficacement.
+          </p>
+          <a href="#">Lire l’article →</a>
+        </article>
 
+        <article class="card">
+          <div class="card-icon">🕵️‍♂️</div>
+          <span class="tag">🔎 Enquête</span>
+          <h4>Retrouver des infos à partir d'une image</h4>
+          <p>Analyse d’image et recherche inversée pour pister sur le Web.</p>
+          <a href="#">Lire l’article →</a>
+        </article>
 
-<footer class="footer">
-  <div class="footer-content">
-    <p>🕵️‍♂️ Au cœur de l’OSINT — © 2025 Tous droits réservés | Créé avec ❤️ pour les curieux du Web</p>
-    <div class="footer-links">
-      <a href="#">Mentions légales</a>
-      <a href="#">Politique de confidentialité</a>
-      <a href="mailto:contact@osint.fr">Contact</a>
-    </div>
-  </div>
-</footer>
+        <article class="card">
+          <div class="card-icon">🌐</div>
+          <span class="tag">💻 Outils</span>
+          <h4>Top 5 des outils OSINT gratuits</h4>
+          <p>
+            Découvre les meilleurs outils pour enquêter comme un pro sans payer.
+          </p>
+          <a href="#">Lire l’article →</a>
+        </article>
+      </div>
+    </section>
 
- 
-</body>
+    <footer class="footer">
+      <div class="footer-content">
+        <p>
+          🕵️‍♂️ Au cœur de l’OSINT — © 2025 Tous droits réservés | Créé avec ❤️
+          pour les curieux du Web
+        </p>
+        <div class="footer-links">
+          <a href="#">Mentions légales</a>
+          <a href="#">Politique de confidentialité</a>
+          <a href="mailto:contact@osint.fr">Contact</a>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/menu.js"></script>
+  </body>
 </html>

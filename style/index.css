@@ -31,6 +31,55 @@ body {
   text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
 }
 
+/* Style bouton hamburger */
+#menu-btn {
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  display: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1001;
+}
+
+/* Styles du menu pour mobile */
+@media (max-width: 768px) {
+  #menu-btn {
+    display: block; /* on affiche le bouton hamburger en mobile */
+  }
+
+  nav.menu {
+   display: none;
+    position: absolute;
+    top: 70px;
+    right: 10px;
+    background-color: #004080;
+    padding: 10px;
+    border-radius: 8px;
+    width: 200px;
+    z-index: 1000;
+  }
+
+  nav.menu.menu-visible {
+    display: block; /* affichage du menu quand actif */
+  }
+
+  nav.menu a {
+   display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+  }
+
+  nav.menu a:hover {
+     background-color: #0055aa;
+  }
+}
+
+
 /* ====== NAVIGATION ====== */
 .menu {
   background-color: rgba(0, 0, 0, 0.3);
@@ -364,6 +413,10 @@ body {
 
   .illustration {
     max-width: 100%;
+  }
+
+  .illustration img {
+    animation: none;
   }
 
   .articles-container {
