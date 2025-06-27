@@ -332,38 +332,28 @@ body {
 /* ====== FOOTER ====== */
 
 .footer {
-  background-color: #1e1e2f;
-  padding: 30px 20px;
+  background-color: #0e1a25;
   color: #ffffffcc;
   text-align: center;
-  margin-top: 50px;
-  border-top: 2px solid #3a3a5d;
-  animation: fade-in 2s ease-in-out;
+  padding: 2rem 1rem;
+  font-size: 0.9rem;
+  margin-top: 3rem;
+  border-top: 1px solid #1c3a57;
 }
 
-.footer-content {
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-.footer-links {
-  margin-top: 15px;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-
-.footer-links a {
-  color: #90caf9;
+.footer a {
+  color: #4fc3f7;
   text-decoration: none;
-  transition: color 0.3s ease;
 }
 
-.footer-links a:hover {
-  color: #ffffff;
+.footer a:hover {
   text-decoration: underline;
 }
+
+.footer-content p {
+  margin: 0.5rem 0;
+}
+
 
 /* 📱 Mobiles */
 @media screen and (max-width: 600px) {
