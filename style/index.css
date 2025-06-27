@@ -354,6 +354,11 @@ body {
   margin: 0.5rem 0;
 }
 
+.footer a {
+  margin: 0 0.3rem;
+}
+
+
 
 /* 📱 Mobiles */
 @media screen and (max-width: 600px) {
