@@ -228,7 +228,7 @@ body {
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-.articles h3 {
+.articles h2 {
   font-size: 1.8rem;
   text-align: center;
   margin-bottom: 40px;
@@ -239,7 +239,7 @@ body {
 }
 
 /* Ligne décorative sous le h3 */
-.articles h3::after {
+.articles h2::after {
   content: "";
   display: block;
   width: 80px;
@@ -298,7 +298,7 @@ body {
   font-weight: bold;
 }
 
-.card h4 {
+.card h3 {
   font-size: 1.2rem;
   margin: 10px 0;
 }
